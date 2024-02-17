@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/_head :: head(pageTitle='Pewaukee Golf Croquet Association')">
+<body>
+<div th:replace="fragments/_header :: header"></div>
+
+<div id="content">
+    <h2>Golf Croquet: Easy to Learn, Fun to Play!</h2>
+
+    <p>
+        Golf Croquet is a game in itself, completely separate from Association Croquet. Although it has a long history,
+        it
+        has experienced a recent resurgence of interest at all levels.
+    </p>
+    <p>
+        There are many Golf Croquet tournaments including regular World Championships, so it is not just a beginner’s
+        game.
+    </p>
+    <p>
+        It has a much simpler set of rules and therefore can be learned more quickly than Association Croquet. Games are
+        generally more interactive and take less time to complete. This makes it attractive to those who do not have the
+        time to play Association Croquet, and beginners can use it to acquire some useful croquet skills.
+    </p>
+    <img th:src="@{/img/golf_croquet_lawn.jpg}" alt="Golf Croquet Lawn" id="croquet-yard">
+</div>
+
+
+<br/>
+<footer>
+    Background Image: <a href="https://www.owntheyard.com/how-to-play-croquet/">Own the Yard</a>
+    <br/>
+    Rules: <a href="https://www.woodmallets.com/how-to-play-croquet/">Wood Mallets</a>
+    <br/>
+    Glossary: <a href="https://www.worldcroquet.org.uk/documents/Governance/GCRC/WCF%20GC%20Rules%205th%20Edition.pdf">World
+    Croquet Federation</a>
+    <br/>
+    Home Page Text and Image: <a href="https://croquet.org.nz/the-game/golf-croquet/">Croquet New Zealand</a>
+</footer>
+</body>
+</html>

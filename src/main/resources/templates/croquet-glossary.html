@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/_head :: head(pageTitle='Golf Croquet Glossary')">
+</head>
+<body>
+<div th:replace="fragments/_header :: header"></div>
+
+<div id="content">
+    <h2>Golf Croquet Terms</h2>
+
+    <!-- Create a table of GlossaryTerm objects here -->
+<table>
+    <tr>
+        <th>Term</th>
+        <th>Definition</th>
+        <th>Regulation</th>
+    </tr>
+    <tr th:each="term : ${croquetGlossary}">
+        <td>
+            <h3 th:text="${term.term}">TERM</h3>
+        </td>
+        <td>
+            <h3 th:text="${term.definition}">DEFINITION</h3>
+        </td>
+        <td>
+            <h3 th:text="${term.regulation}">REGULATION</h3>
+        </td>
+    </tr>
+</table>
+
+
+</div>
+</body>
+</html>

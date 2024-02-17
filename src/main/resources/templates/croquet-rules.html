@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/_head :: head(pageTitle='Rules of Golf Croquet')">
+<body>
+<div th:replace="fragments/_header :: header"></div>
+
+<div id="content">
+    <h2>Rules of Golf Croquet</h2>
+
+    <!-- Create an unordered list of String objects here -->
+<ul th:each="rule : ${croquetRules}">
+    <li th:text="${rule}"></li>
+</ul>
+
+
+</div>
+</body>
+</html>

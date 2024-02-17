@@ -1,0 +1,72 @@
+[
+  {
+    "term": "Boundary",
+    "definition": "The inner edge of any boundary marking",
+    "regulation": "2.2.2"
+  },
+  {
+    "term": "Error",
+    "definition": "An irregularity that occurs when a player plays a wrong ball, commits a fault, is guilty of overlappingplay or plays after play has been forestalled",
+    "regulation": "10 to 13"
+  },
+  {
+    "term": "Jammed ball",
+    "definition": "A ball that is found to touch both uprights of a hoop simultaneously on some axis",
+    "regulation": "9.5"
+  },
+  {
+    "term": " Loose impediment",
+    "definition": "A small, movable object on the court surface",
+    "regulation": "9.6"
+  },
+  {
+    "term": "Offside opponent",
+    "definition": "The side opposing an offside owner",
+    "regulation": "8.4.1"
+  },
+  {
+    "term": "Offside owner",
+    "definition": "The side that owns an offside ball",
+    "regulation": "8.4.1"
+  },
+  {
+    "term": "Penalty area",
+    "definition": "A semi-circular area on the court with a radius of one yard",
+    "regulation": "18.1"
+  },
+  {
+    "term": "Penalty area continuation",
+    "definition": "A method of continuing a game",
+    "regulation": "18.2"
+  },
+  {
+    "term": "Previous stroke",
+    "definition": "The stroke before the last stroke",
+    "regulation": "10.1.4"
+  },
+  {
+    "term": "Receiver",
+    "definition": "The player entitled to play an extra stroke in a handicap game",
+    "regulation": "19.1"
+  },
+  {
+    "term": "Striker",
+    "definition": "The owner of the striker’s ball",
+    "regulation": "1.2"
+  },
+  {
+    "term": "Striker’s ball",
+    "definition": "The ball that follows next in sequence after the ball played in the last stroke",
+    "regulation": "1.2"
+  },
+  {
+    "term": "Touching the boundary",
+    "definition": "A ball placed on the court so that one point on its circumference would touch a straight edge raisedvertically from the boundary",
+    "regulation": "6.5.3"
+  },
+  {
+    "term": "Weather",
+    "definition": "Wind, rain and any other form of precipitation",
+    "regulation": "9.7"
+  }
+]
